@@ -8,7 +8,7 @@ function App() {
     const message = 'i want to start RRB Preparation.'; // Replace with your custom message
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     
-    window.open(url, '_blank');
+    window.location.href = url;
   },[])
 
   return (
